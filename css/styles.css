@@ -1,3 +1,160 @@
+.header {
+}
+.header__logo {
+}
+.header__burger-icon {
+}
+.header__nav {
+}
+.nav {
+}
+.nav__list {
+}
+.nav__item {
+}
+.header__search {
+}
+.main {
+}
+.main__hero {
+}
+.hero {
+}
+.hero__title {
+}
+.hero__description {
+}
+.hero__button {
+}
+.btn {
+}
+.hero__bullits {
+}
+.bullits {
+}
+.bullits_item {
+}
+.main__about {
+}
+.about {
+}
+.about__title {
+}
+.about__description {
+}
+.about__container {
+}
+.about__more-information {
+}
+.more-information {
+}
+.more-information__container {
+}
+.more-information__description {
+}
+.more-information__button {
+}
+.about__advantages {
+}
+.advantages {
+}
+.advantages__item {
+}
+.advantegaes__img {
+}
+.advantegaes__img_type-box {
+}
+.advantages__container {
+}
+.advantages__title {
+}
+.advantages__description {
+}
+.advantegaes__img_type-gear {
+}
+.main__how {
+}
+.how {
+}
+.how__title {
+}
+.how__list {
+}
+.how__item {
+}
+.how__container {
+}
+.how__information-block {
+}
+.information-block {
+}
+.information-block__title {
+}
+.information-block__description {
+}
+.information-block__button {
+}
+.information-block__button_type-more {
+}
+.information-block__button_type-treaty {
+}
+.how__img {
+}
+.main__faq {
+}
+.faq {
+}
+.faq__title {
+}
+.faq__list {
+}
+.faq__item {
+}
+.faq__subtitle {
+}
+.faq__button-more {
+}
+.footer {
+}
+.footer__container {
+}
+.footer__logo {
+}
+.footer__navigation {
+}
+.navigation {
+}
+.navigation_list {
+}
+.navigation__item {
+}
+.footer__social {
+}
+.social {
+}
+.social__link {
+}
+.social__icon {
+}
+.footer_form {
+}
+.form {
+}
+.form__title {
+}
+.form__input {
+}
+.form__input_type-area {
+}
+.form__button {
+}
+.form__personal {
+}
+.form__checkbox {
+}
+.footer__description {
+}
+
 /* montserrat-regular - cyrillic */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -35,4 +192,64 @@
          url('../fonts/montserrat-v25-cyrillic-800.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 
+* {
+  box-sizing: border-box;
+}
 
+:root {
+  --main-text-color: #333333;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  width: 1920px;
+  margin: 0 auto;
+}
+
+a {
+  line-height: 0;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+/* Header */
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 14px 75px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, );
+}
+
+.header__logo {
+  margin-right: auto;
+}
+
+.header__burger-icon {
+  display: none;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.nav__item {
+  margin-right: 85px;
+}
+
+.nav__link {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  color: var(--main-text-color);
+}
