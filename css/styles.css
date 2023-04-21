@@ -199,6 +199,7 @@
 :root {
   --main-text-color: #333333;
   --white-text-color: #fff;
+  --footer-text-color: #CACACA;
 }
 
 html {
@@ -567,6 +568,10 @@ button {
   font-weight: 700;
 }
 
+.faq__slash {
+  color: #CACACA;
+}
+
 .faq__button-more {
   cursor: pointer;
 }
@@ -580,5 +585,118 @@ button {
   justify-content: space-between;
   padding: 50px 75px;
   background-color: #222222;
+  color: var(--footer-text-color);
+}
+
+.footer__container {
+  margin-right: 350px;
+  flex: 1 1 14.6%;
+}
+
+.footer__logo {
+  margin-bottom: 20px;
+}
+
+.navigation_list {
+  margin-bottom: 90px;
+}
+
+.navigation__item {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 600;
+}
+
+.footer__social {
+  font-size: 0;
+}
+
+.social__link {
+  display: inline-block;
+}
+
+.social__link:not(:last-child) {
+  margin-right: 25px;
+}
+
+.footer__form {
+  margin-right: 236px;
+  flex: 1 1 33.33%;
+  font-size: 0;
+}
+
+.form__title {
+  margin-bottom: 25px;
+  font-size: 48px;
+  line-height: 59px;
+  font-weight: 400;
+}
+
+.form__input {
+  padding: 14px 24px;
+  margin-bottom: 25px;
+  width: 570px;
+  height: 60px;
+  border: none;
+  background-color: #414141;
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 400;
+  color: var(--footer-text-color);
+}
+
+.form__input::placeholder {
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 400;
+  color: var(--footer-text-color);
+}
+
+.form__input_type-area {
+  margin-bottom: 32px;
+  height: 150px;
+}
+
+.form__button {
+  margin-right: 22px;
+  padding: 19px 52px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  border: none;
+  background-color: #FF9900;
   color: var(--white-text-color);
+}
+
+.form__checkbox {
+  margin: 0;
+  margin-right: 4px;
+  appearance: none;
+  display: inline-block;
+	width: 14px;
+	height: 14px;
+  background: center center no-repeat;
+  background-color: transparent;
+  vertical-align: center;
+  border: 1px solid #CACACA;
+  cursor: pointer;
+  transform: translateY(1px);
+  transition: background .3s ease;
+}
+
+.form__checkbox:checked {
+  background-image: url(../img/checkMark.png);
+}
+
+.form__personal {
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 400;
+}
+
+.footer__description {
+  flex: 1 1 21%;
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 400;
 }
